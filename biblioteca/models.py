@@ -13,7 +13,7 @@ def validar_resumen(resumen):
         raise ValidationError("Hola papu, esto es muy pequeño papu 7u7")
     
 def validar_resena(resena):
-    if resena < 0 or 100 < resena:
+    if resena < 0 or 5 < resena:
         raise ValidationError("Hola papu, rango incorrecto papu UnU")
 
 class Autor(models.Model):
